@@ -25,7 +25,7 @@ namespace PG_CitasMedicas
             string Sexo = genero.Value;
             string dire = direccionx.Value;
             string fechaN = fechanac.Value;
-
+//COMENTARIO OFENSIVO
             cmd.CommandText = "INSERT INTO PACIENTES (DPI, NOMBRE, APELLIDO, GENERO, DIRECCION, FECHA_NAC, FECHA_INGRESO, ESTADO)" +
                 " VALUES (@DPI, @NOMBRE, @APELLIDO, @GENERO, @DIRECCION, @FECHA_NAC, GETDATE(), 1)";
             cmd.Parameters.Add("@DPI", SqlDbType.Text).Value = DPI;
