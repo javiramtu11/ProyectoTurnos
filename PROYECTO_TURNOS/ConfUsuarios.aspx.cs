@@ -12,7 +12,7 @@ namespace PG_CitasMedicas
     public partial class ConfUsuarios : System.Web.UI.Page
     {
         string CadenaConexion = "Data Source = DESKTOP-RTIU5G0; Initial Catalog = HospitalAdonai; Integrated Security = True";
-        
+//PRUEBA DE GIT        
         public void AddUser() {
             //insertar la BDD
             SqlConnection conexionSQL = new SqlConnection(CadenaConexion);
